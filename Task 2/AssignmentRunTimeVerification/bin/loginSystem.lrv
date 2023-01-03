@@ -1,0 +1,44 @@
+IMPORTS{
+import main.RunnerLoggingSystem;
+}
+
+   
+GLOBAL {     
+	VARIABLES {
+		boolean AlertsViewed = false;
+		boolean loggedIn = false;
+	}
+	
+	EVENTS {
+		validLogin() = {*.validLogin()}
+		seeAlerts() = {*.seeAlerts()}
+		invalidLogin() = {*.invalidLogin()}
+		loggingOut() = {*.loggingOut()} %%Events for logging
+	}
+	
+	PROPERTY loginSystemProperty {
+		STATES {
+			BAD {
+				badCase
+			}
+			NORMAL {
+				viewAlertsState
+				loggedIn
+			}
+			STARTING {
+				logOut
+			}
+		}
+		
+		TRANSITIONS { 			%%Transition states for each.
+			logOut -> logOut [invalidLogin\loggedIn == false\loggedIn = false;] %%boolean set values when log out
+			logOut -> loggedIn [validLogin\loggedIn == false\loggedIn = true;] %%log in
+			loggedIn -> logOut [loggingOut\loggedIn == true\loggedIn = false;] %%log out
+			loggedIn -> viewAlertsState [seeAlerts\loggedIn == true\AlertsViewed = false;] 
+			viewAlertsState -> logOut [loggingOut\loggedIn == true\loggedIn = false;]
+			logOut -> badCase [seeAlerts\loggedIn == false\AlertsViewed = true;]
+			
+			
+		}
+	}
+}

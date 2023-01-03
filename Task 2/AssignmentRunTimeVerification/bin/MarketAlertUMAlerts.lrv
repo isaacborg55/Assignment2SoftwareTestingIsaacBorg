@@ -1,0 +1,51 @@
+IMPORTS{
+import main.MarketAlertUMAlerts;
+} 
+
+ 
+GLOBAL {  
+	VARIABLES {
+		int totalnoAlerts = 0; 
+	}
+	
+	EVENTS {
+		sendGoodAlert() = {*.sendGoodAlert()}
+		sendBadAlert() = {*.sendBadAlert()}
+		clearAllAlerts() = {*.clearAllAlerts()}
+	}
+	
+	PROPERTY MarketAlertUMAlertsProperty {
+		STATES {
+			BAD {
+				badCase
+			}
+			NORMAL {
+				alertSent 
+				alertsCleared
+			}
+			STARTING {
+				startApi
+			}
+		}
+		
+		TRANSITIONS {
+			%%Making sure there are not more than 5 alerts sent.
+			%%bad alert is an error alert with no details
+			startApi -> alertSent [sendGoodAlert\totalnoAlerts < 5\totalnoAlerts++;]
+			startApi -> alertsCleared [clearAllAlerts\\totalnoAlerts = 0;] %%reset alert counter
+			startApi -> badCase [sendBadAlert\\totalnoAlerts++;]
+			alertsCleared -> alertsCleared [clearAllAlerts\\totalnoAlerts = 0;]
+			alertsCleared -> badCase [sendBadAlert\\totalnoAlerts++;]
+			alertsCleared -> alertSent [sendGoodAlert\totalnoAlerts == 0\totalnoAlerts++;]
+			alertSent -> alertSent [sendGoodAlert\totalnoAlerts < 5\totalnoAlerts++;]
+			alertSent -> alertsCleared [clearAllAlerts\\totalnoAlerts = 0;]
+			alertSent -> badCase [sendBadAlert\\totalnoAlerts++;]
+			alertSent -> badCase [sendGoodAlert\totalnoAlerts == 5\totalnoAlerts++;]
+			badCase -> badCase [sendGoodAlert\totalnoAlerts >= 5\totalnoAlerts++;]
+			badCase -> badCase [sendBadAlert\\totalnoAlerts++;]
+			badCase -> alertsCleared [clearAllAlerts\\totalnoAlerts = 0;]
+			
+			
+		}
+	}
+}

@@ -1,0 +1,20 @@
+digraph _logic_MarketAlertUMAlertsProperty {
+rankdir=LR;
+node [shape = circle]; alertSent alertsCleared startApi;
+node [shape = octagon]; badCase;
+node [shape = point]; _s_s;
+_s_s -> startApi;
+alertSent -> alertSent [ label = "(1) sendGoodAlert\\totalnoAlerts < 5 \\totalnoAlerts ++ ; "];
+alertSent -> alertsCleared [ label = "(2) clearAllAlerts\\\\totalnoAlerts = 0 ; "];
+alertSent -> badCase [ label = "(3) sendBadAlert\\\\totalnoAlerts ++ ; "];
+alertSent -> badCase [ label = "(4) sendGoodAlert\\totalnoAlerts == 5 \\totalnoAlerts ++ ; "];
+startApi -> alertSent [ label = "(1) sendGoodAlert\\totalnoAlerts < 5 \\totalnoAlerts ++ ; "];
+startApi -> alertsCleared [ label = "(2) clearAllAlerts\\\\totalnoAlerts = 0 ; "];
+startApi -> badCase [ label = "(3) sendBadAlert\\\\totalnoAlerts ++ ; "];
+alertsCleared -> alertsCleared [ label = "(1) clearAllAlerts\\\\totalnoAlerts = 0 ; "];
+alertsCleared -> badCase [ label = "(2) sendBadAlert\\\\totalnoAlerts ++ ; "];
+alertsCleared -> alertSent [ label = "(3) sendGoodAlert\\totalnoAlerts == 0 \\totalnoAlerts ++ ; "];
+badCase -> badCase [ label = "(1) sendGoodAlert\\totalnoAlerts >= 5 \\totalnoAlerts ++ ; "];
+badCase -> badCase [ label = "(2) sendBadAlert\\\\totalnoAlerts ++ ; "];
+badCase -> alertsCleared [ label = "(3) clearAllAlerts\\\\totalnoAlerts = 0 ; "];
+}

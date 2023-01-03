@@ -1,0 +1,13 @@
+digraph _logic_loginSystemProperty {
+rankdir=LR;
+node [shape = circle]; viewAlertsState loggedIn logOut;
+node [shape = octagon]; badCase;
+node [shape = point]; _s_s;
+_s_s -> logOut;
+loggedIn -> logOut [ label = "(1) loggingOut\\loggedIn == true \\loggedIn = false ; "];
+loggedIn -> viewAlertsState [ label = "(2) seeAlerts\\loggedIn == true \\AlertsViewed = false ; "];
+logOut -> logOut [ label = "(1) invalidLogin\\loggedIn == false \\loggedIn = false ; "];
+logOut -> loggedIn [ label = "(2) validLogin\\loggedIn == false \\loggedIn = true ; "];
+logOut -> badCase [ label = "(3) seeAlerts\\loggedIn == false \\AlertsViewed = true ; "];
+viewAlertsState -> logOut [ label = "(1) loggingOut\\loggedIn == true \\loggedIn = false ; "];
+}

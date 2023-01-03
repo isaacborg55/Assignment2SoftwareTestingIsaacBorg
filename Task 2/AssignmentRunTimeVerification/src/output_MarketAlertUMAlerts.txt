@@ -1,0 +1,165 @@
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>startApi
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> alertSent
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>alertSent
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> alertSent
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>alertSent
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> alertSent
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>alertSent
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> alertSent
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>alertSent
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> alertSent
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>alertSent
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendBadAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$2$9bceb3e2(_asp_MarketAlertUMAlerts0.aj:23)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:202)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendBadAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$2$9bceb3e2(_asp_MarketAlertUMAlerts0.aj:23)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:202)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendBadAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$2$9bceb3e2(_asp_MarketAlertUMAlerts0.aj:23)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:202)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendBadAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$2$9bceb3e2(_asp_MarketAlertUMAlerts0.aj:23)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:202)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendBadAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$2$9bceb3e2(_asp_MarketAlertUMAlerts0.aj:23)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:202)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
+[MarketAlertUMAlertsProperty]AUTOMATON::> MarketAlertUMAlertsProperty() STATE::>badCase
+[MarketAlertUMAlertsProperty]MOVED ON METHODCALL: void main.RunnerMarketAlertUMAlerts.sendGoodAlert() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! badCase 
+aspects._asp_MarketAlertUMAlerts0.ajc$before$aspects__asp_MarketAlertUMAlerts0$4$85d31d22(_asp_MarketAlertUMAlerts0.aj:41)
+main.RunnerMarketAlertUMAlerts.run(RunnerMarketAlertUMAlerts.java:193)
+main.RunnerMarketAlertUMAlerts.main(RunnerMarketAlertUMAlerts.java:16) 
